@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Tienda de Instrumentos{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    
 </head>
 <body>
     <header>
         <h1>Tienda de Instrumentos Musicales</h1>
         <nav>
             <ul>
-                <li><a href="{% url 'home' %}">Inicio</a></li>
-                <li><a href="{% url 'catalogo' %}">Catálogo de Instrumentos</a></li>
-                <li><a href="{% url 'contacto' %}">Contacto</a></li>
+                <li><a href="{% url 'index' %}">Inicio</a></li>
+                <li><a>Catálogo de Instrumentos</a></li>
+                <li><a>Contacto</a></li>
             </ul>
         </nav>
     </header>
