@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "proyecto_tienda"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Alcázar <aalcazarprogramacion@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = ">=4.2,<4.3"
+python-dotenv = "^1.2.1"
+psycopg2-binary = "^2.9.11"
+python-decouple = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
